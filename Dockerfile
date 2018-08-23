@@ -12,4 +12,4 @@ COPY . ./
 
 EXPOSE 3000
 
-# ENTRYPOINT ["nodemon", "index.js"]
+ENTRYPOINT ["nodemon", "index.js"]
